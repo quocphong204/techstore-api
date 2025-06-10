@@ -1,0 +1,8 @@
+[build]
+cmd = "go build -o main ."  # hoặc sửa path chính xác nếu bạn dùng cấu trúc /cmd/main.go
+bin = "main"
+include_ext = ["go", "html", "tmpl", "tpl"]
+exclude_dir = ["vendor"]
+
+[log]
+time = true
